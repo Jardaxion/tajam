@@ -1,0 +1,63 @@
+@media screen and (max-width: 1367px) {
+  .works .works__content .block {
+    width: 200px;
+    height: 200px; } }
+
+@media screen and (max-width: 1280px) {
+  header nav .header__nav__right a {
+    font-size: 15px; }
+    header nav .header__nav__right a:not(:last-of-type) {
+      margin-right: 20px; } }
+
+@media screen and (max-width: 1024px) {
+  header nav .header__nav__right a {
+    font-size: 15px; }
+    header nav .header__nav__right a:not(:last-of-type) {
+      margin-right: 10px; }
+  .expertise .expertise__content {
+    flex-direction: row;
+    justify-content: center; }
+    .expertise .expertise__content .expretise__content__top {
+      flex-wrap: wrap; }
+      .expertise .expertise__content .expretise__content__top .expretise__content__top__block {
+        border: none; }
+        .expertise .expertise__content .expretise__content__top .expretise__content__top__block:first-of-type {
+          border-right: 1px solid #817f86; }
+        .expertise .expertise__content .expretise__content__top .expretise__content__top__block:last-of-type {
+          border-right: 1px solid #817f86; }
+        .expertise .expertise__content .expretise__content__top .expretise__content__top__block:nth-of-type(2n) {
+          border-top: 1px solid #817f86;
+          border-right: 1px solid #817f86;
+          border-bottom: 1px solid #817f86; }
+    .expertise .expertise__content .expretise__content__bottom {
+      flex-wrap: wrap; }
+      .expertise .expertise__content .expretise__content__bottom .expretise__content__bottom__block {
+        border: none; }
+        .expertise .expertise__content .expretise__content__bottom .expretise__content__bottom__block:nth-of-type(2n) {
+          border-top: 1px solid #817f86;
+          border-bottom: 1px solid #817f86; }
+  .teams {
+    height: auto; }
+    .teams .teams__content {
+      flex-wrap: wrap; }
+      .teams .teams__content .block {
+        padding-bottom: 20px; }
+        .teams .teams__content .block:not(:last-of-type) {
+          padding-right: 0px; }
+        .teams .teams__content .block:first-of-type {
+          padding-right: 20px; }
+        .teams .teams__content .block:nth-of-type(3n) {
+          padding-right: 20px; }
+  .works .works__content {
+    padding: 0; }
+  .contact .contact__left form input,
+  .contact .contact__left form textarea {
+    width: 280px; }
+  .contact .contact__right .contact__right__logo .block img {
+    width: 100px; }
+  .contact p {
+    font-size: 25px; }
+  footer .footer__top .footer__top__center p {
+    font-size: 25px; }
+  footer .footer__top .footer__top__center .footer__top__center__block {
+    width: 225px; } }
