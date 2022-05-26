@@ -2,12 +2,21 @@ $mainBlue: #28bfce;
 $mainGrey: #413d4b;
 $mainLightGrey: #817f86;
 
-@media screen and (max-width:1367px){
+@media screen and (max-width:1366px){
     .works{
         .works__content{
             .block{
                 width: 200px;
                 height: 200px;
+            }
+        }
+    }
+    footer{
+        .footer__top{
+            .footer__top__center{
+                .footer__top__center__block{
+                    width: 350px;
+                }
             }
         }
     }
