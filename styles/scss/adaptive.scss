@@ -230,7 +230,44 @@ $mainLightGrey: #817f86;
 }
 
 @media screen and (max-width: 768px) {
+    header{
+        nav{
+            padding: 40px 20px;
+            .header__nav__right{
+                .header__nav__right__body{
+                    width: 75%;
+                    a{
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+        .header__content{
+            .header__content-p{
+                font-size: 20px;
+            }
+            .large{
+                font-size: 15px;
+                width: auto;
+            }
+            .header__content__circles{
+                margin-top: 75px;
+            }
+        }
+    }
+    .about{
+        .about__text{
+            padding: 40px 20px;
+        }
+    }
+    .teams{
+        padding: 40px 20px;
+    }
+    .works{
+        padding: 40px 20px;
+    }
     .expertise{
+        padding: 40px 20px;
         .expertise__content{
             .block{
                 padding: 25px;
@@ -238,6 +275,7 @@ $mainLightGrey: #817f86;
         }
     }
     .peopleSay{
+        padding: 40px 20px;
         .peopleSay__textsSlider{
             .peopleSay__textsSlider__slide{
                 p{
@@ -246,6 +284,13 @@ $mainLightGrey: #817f86;
                     }
                 }
             }
+        }
+    }
+    .contact{
+        padding: 40px 20px;
+        justify-content: center;
+        .contact__right{
+            display: none;
         }
     }
 }
@@ -370,11 +415,6 @@ $mainLightGrey: #817f86;
             .peopleSay__slider__images{
                 display: flex;
             }
-        }
-    }
-    .contact{
-        .contact__right{
-            display: none;
         }
     }
 }

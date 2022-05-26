@@ -127,10 +127,38 @@
         margin-bottom: 30px; } }
 
 @media screen and (max-width: 768px) {
-  .expertise .expertise__content .block {
-    padding: 25px; }
-  .peopleSay .peopleSay__textsSlider .peopleSay__textsSlider__slide p:first-of-type {
-    width: auto; } }
+  header nav {
+    padding: 40px 20px; }
+    header nav .header__nav__right .header__nav__right__body {
+      width: 75%; }
+      header nav .header__nav__right .header__nav__right__body a {
+        font-size: 32px; }
+  header .header__content .header__content-p {
+    font-size: 20px; }
+  header .header__content .large {
+    font-size: 15px;
+    width: auto; }
+  header .header__content .header__content__circles {
+    margin-top: 75px; }
+  .about .about__text {
+    padding: 40px 20px; }
+  .teams {
+    padding: 40px 20px; }
+  .works {
+    padding: 40px 20px; }
+  .expertise {
+    padding: 40px 20px; }
+    .expertise .expertise__content .block {
+      padding: 25px; }
+  .peopleSay {
+    padding: 40px 20px; }
+    .peopleSay .peopleSay__textsSlider .peopleSay__textsSlider__slide p:first-of-type {
+      width: auto; }
+  .contact {
+    padding: 40px 20px;
+    justify-content: center; }
+    .contact .contact__right {
+      display: none; } }
 
 @media screen and (max-width: 425px) {
   header nav .header__nav__right .header__nav__right__body {
@@ -192,6 +220,4 @@
     .peopleSay .peopleSay__textsSlider .peopleSay__textsSlider__slide p:first-of-type {
       font-size: 20px; }
     .peopleSay .peopleSay__slider .peopleSay__slider__images {
-      display: flex; }
-  .contact .contact__right {
-    display: none; } }
+      display: flex; } }
