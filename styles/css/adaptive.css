@@ -139,7 +139,7 @@
     font-size: 20px; }
   header .header__content .large {
     font-size: 15px;
-    width: 375px; }
+    width: auto; }
   header .header__content .header__content__circles {
     margin-top: 75px; }
   .about .about__text .about__text__left {
