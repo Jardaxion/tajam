@@ -237,6 +237,17 @@ $mainLightGrey: #817f86;
             }
         }
     }
+    .peopleSay{
+        .peopleSay__textsSlider{
+            .peopleSay__textsSlider__slide{
+                p{
+                    &:first-of-type{
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -350,7 +361,6 @@ $mainLightGrey: #817f86;
             .peopleSay__textsSlider__slide{
                 p{
                     &:first-of-type{
-                        width: 300px;
                         font-size: 20px;
                     }
                 }

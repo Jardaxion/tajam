@@ -128,7 +128,9 @@
 
 @media screen and (max-width: 768px) {
   .expertise .expertise__content .block {
-    padding: 25px; } }
+    padding: 25px; }
+  .peopleSay .peopleSay__textsSlider .peopleSay__textsSlider__slide p:first-of-type {
+    width: auto; } }
 
 @media screen and (max-width: 425px) {
   header nav .header__nav__right .header__nav__right__body {
@@ -188,7 +190,6 @@
   .peopleSay {
     height: auto; }
     .peopleSay .peopleSay__textsSlider .peopleSay__textsSlider__slide p:first-of-type {
-      width: 300px;
       font-size: 20px; }
     .peopleSay .peopleSay__slider .peopleSay__slider__images {
       display: flex; }
