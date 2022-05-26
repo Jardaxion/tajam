@@ -62,4 +62,24 @@ function slidePrev() {
         disabledPrev = false;
     }
 }
+//Бургер
+let burger = document.querySelector('#burger');
+let menu = document.querySelector('.header__nav__right');
+burger.addEventListener('click', () => {
+    menu.classList.add('active');
+})
 
+if(window.screen.width<=960){
+    let allA = document.querySelectorAll('.header__nav__right__body a');
+    allA.forEach(a => {
+        a.addEventListener('click', () => {
+            menu.classList.remove('active');
+        })
+    });
+}
+
+window.onclick = function(e) {
+    if (e.target == menu) {
+        menu.classList.remove('active');
+    }
+}

@@ -50,6 +50,20 @@ header{
                 color: $mainBlue;
             }
         }
+        .burger{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            display: none;
+            .burger__part{
+                width: 40px;
+                height: 3px;
+                background-color: white;
+                &:nth-of-type(2n){
+                    margin: 8px 0;
+                }
+            }
+        }
         .header__nav__right {
             display: flex;
             justify-content: space-between;
@@ -278,7 +292,6 @@ header{
     align-items: center;
     padding: 50px 170px;
     background: url('../../img/bgteam.png') no-repeat;
-    height: 90vh;
     background-size: 100% 100%;
     .teams__head{
         display: flex;
