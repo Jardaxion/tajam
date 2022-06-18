@@ -1,0 +1,19 @@
+{
+  "name": "tajam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "sass": "node-sass -w styles/scss/ -o styles/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jardaxion/tajam.git"
+  },
+  "author": "Jardaxion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jardaxion/tajam/issues"
+  },
+  "homepage": "https://github.com/Jardaxion/tajam#readme"
+}

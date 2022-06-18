@@ -34,11 +34,15 @@ $mainLightGrey: #817f86;
                 }
             }
         }
+        .header__content{
+            padding: 50px 0;
+        }
     }
 }
 
 @media screen and (max-width: 1024px) {
     header{
+        background-size: auto 100%;
         nav{
             .header__nav__right{
                 a{
@@ -84,6 +88,7 @@ $mainLightGrey: #817f86;
         }
     }
     .teams{
+        background-size: auto 100%;
         .teams__content{
             flex-wrap: wrap;
             .block{
@@ -214,6 +219,8 @@ $mainLightGrey: #817f86;
     footer{
         padding: 40px 50px;
         height: auto;
+        background-size: auto 100%;
+        background-position-x: right;
         .footer__top{
             justify-content: center;
             align-items: center;
@@ -354,6 +361,7 @@ $mainLightGrey: #817f86;
         .expertise__content{
             flex-direction: column;
             .expretise__content__top {
+                display: block;
                 .expretise__content__top__block{
                     border-right: none;
                     &:first-of-type{
@@ -368,6 +376,7 @@ $mainLightGrey: #817f86;
                 }
             }
             .expretise__content__bottom {
+                display: block;
                 .expretise__content__bottom__block{
                     border: none;
                     &:nth-of-type{

@@ -31,8 +31,7 @@ a{
 //Header
 header{
     background: url('../../img/background.png') no-repeat;
-    background-size: 100% 100%;
-    height: 100vh;
+    background-size: 100% auto;
     nav{
         display: flex;
         justify-content: space-between;
@@ -84,8 +83,8 @@ header{
         }
     }
     .header__content {
+        padding: 100px 0;
         display: flex;
-        height: 90vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -122,7 +121,7 @@ header{
         }
         .header__content__circles {
             display: flex;
-            margin-top: 170px;
+            margin-top: 30px;
             .header__content_circles-circle {
                 border: 1px solid white;
                 border-radius: 100%;
@@ -184,7 +183,7 @@ header{
         }
     }
     .video{
-        height: 70vh;
+        padding: 200px 0;
         background: url('../../img/bgvideo.png');
         background-size: 100% 100%;
         display: flex;
@@ -446,7 +445,6 @@ header{
     padding: 50px 170px;
     background: url('../../img/bgteam.png') no-repeat;
     background-size: 100% 100%;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -489,7 +487,7 @@ header{
     .peopleSay__slider{
         display: flex;
         align-items: center;
-        margin-top: 75px;
+        margin: 75px 0px;
         .peopleSay__slider__images{
             img{
                 transition: .3s ease all;
@@ -593,7 +591,6 @@ footer{
     flex-direction: column;
     background: url('../../img/bgfooter.png') no-repeat;
     background-size: 100% 100%;
-    height: 40vh;
     .footer__top{
         display: flex;
         justify-content: space-between;

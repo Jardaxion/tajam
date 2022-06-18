@@ -9,13 +9,17 @@
   header nav .header__nav__right a {
     font-size: 15px; }
     header nav .header__nav__right a:not(:last-of-type) {
-      margin-right: 20px; } }
+      margin-right: 20px; }
+  header .header__content {
+    padding: 50px 0; } }
 
 @media screen and (max-width: 1024px) {
-  header nav .header__nav__right a {
-    font-size: 15px; }
-    header nav .header__nav__right a:not(:last-of-type) {
-      margin-right: 10px; }
+  header {
+    background-size: auto 100%; }
+    header nav .header__nav__right a {
+      font-size: 15px; }
+      header nav .header__nav__right a:not(:last-of-type) {
+        margin-right: 10px; }
   .expertise .expertise__content {
     flex-direction: row;
     justify-content: center; }
@@ -38,16 +42,18 @@
         .expertise .expertise__content .expretise__content__bottom .expretise__content__bottom__block:nth-of-type(2n) {
           border-top: 1px solid #817f86;
           border-bottom: 1px solid #817f86; }
-  .teams .teams__content {
-    flex-wrap: wrap; }
-    .teams .teams__content .block {
-      padding-bottom: 20px; }
-      .teams .teams__content .block:not(:last-of-type) {
-        padding-right: 0px; }
-      .teams .teams__content .block:first-of-type {
-        padding-right: 20px; }
-      .teams .teams__content .block:nth-of-type(3n) {
-        padding-right: 20px; }
+  .teams {
+    background-size: auto 100%; }
+    .teams .teams__content {
+      flex-wrap: wrap; }
+      .teams .teams__content .block {
+        padding-bottom: 20px; }
+        .teams .teams__content .block:not(:last-of-type) {
+          padding-right: 0px; }
+        .teams .teams__content .block:first-of-type {
+          padding-right: 20px; }
+        .teams .teams__content .block:nth-of-type(3n) {
+          padding-right: 20px; }
   .works .works__content {
     padding: 0; }
   .contact .contact__left form input,
@@ -113,7 +119,9 @@
     padding: 40px 50px; }
   footer {
     padding: 40px 50px;
-    height: auto; }
+    height: auto;
+    background-size: auto 100%;
+    background-position-x: right; }
     footer .footer__top {
       justify-content: center;
       align-items: center;
@@ -186,19 +194,23 @@
     background-size: auto 100%; }
   .expertise .expertise__content {
     flex-direction: column; }
-    .expertise .expertise__content .expretise__content__top .expretise__content__top__block {
-      border-right: none; }
-      .expertise .expertise__content .expretise__content__top .expretise__content__top__block:first-of-type {
+    .expertise .expertise__content .expretise__content__top {
+      display: block; }
+      .expertise .expertise__content .expretise__content__top .expretise__content__top__block {
         border-right: none; }
-      .expertise .expertise__content .expretise__content__top .expretise__content__top__block:last-of-type {
-        border-right: none; }
-      .expertise .expertise__content .expretise__content__top .expretise__content__top__block:nth-of-type(2n) {
-        border-right: none; }
-    .expertise .expertise__content .expretise__content__bottom .expretise__content__bottom__block {
-      border: none; }
-      .expertise .expertise__content .expretise__content__bottom .expretise__content__bottom__block:nth-of-type {
-        border-top: 1px solid #817f86;
-        border-bottom: 1px solid #817f86; }
+        .expertise .expertise__content .expretise__content__top .expretise__content__top__block:first-of-type {
+          border-right: none; }
+        .expertise .expertise__content .expretise__content__top .expretise__content__top__block:last-of-type {
+          border-right: none; }
+        .expertise .expertise__content .expretise__content__top .expretise__content__top__block:nth-of-type(2n) {
+          border-right: none; }
+    .expertise .expertise__content .expretise__content__bottom {
+      display: block; }
+      .expertise .expertise__content .expretise__content__bottom .expretise__content__bottom__block {
+        border: none; }
+        .expertise .expertise__content .expretise__content__bottom .expretise__content__bottom__block:nth-of-type {
+          border-top: 1px solid #817f86;
+          border-bottom: 1px solid #817f86; }
   .teams .teams__content {
     width: auto; }
     .teams .teams__content .teams__content__block:first-of-type {
